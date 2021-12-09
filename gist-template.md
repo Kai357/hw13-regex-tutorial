@@ -1,10 +1,18 @@
-# Title (replace with your title)
+# Email Regex
 
-Introductory paragraph (replace this with your text)
+How to write a regex that will validate an email
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+this regular expression is capable of searching for a valid email address
+(@)(. +)$
+But why, how does it work
+well first of the (@) part
+this is describing a regular charachter the "@" so its looking for that
+followed by (. +)
+which translates to a "." followed by more then one character
+followed by the $
+which is for string replacement
 
 ## Table of Contents
 
