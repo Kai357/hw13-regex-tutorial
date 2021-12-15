@@ -27,17 +27,31 @@ which is for string replacement
 
 ## Regex Components
 
+(@)(. +)$
+
 ### Anchors
+
+$ (dollar) Matches at the end of the string the regex pattern is applied to
 
 ### Quantifiers
 
+- (plus) is a quantifier that tells the expression that there is more characters after the dot
+
 ### Grouping Constructs
+
+() (parentheses) is a the grouping construct here and it keeps the @ and after the @ seperate
 
 ### Bracket Expressions
 
+there are no braket expressions
+
 ### Character Classes
 
+the period is a charcther classs and so is the @ they refer to themseves
+
 ### The OR Operator
+
+there is no or operator in this regex
 
 ### Flags
 
@@ -45,4 +59,5 @@ which is for string replacement
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Kai Gerstley
+https://github.com/Kai357
